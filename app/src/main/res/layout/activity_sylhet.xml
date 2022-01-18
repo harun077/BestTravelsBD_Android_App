@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SylhetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp" >
+        <Button
+            android:id="@+id/bisanakanddi"
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cardrounded"
+            android:text="Bisnakandi"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+        <Button
+            android:id="@+id/jaflong"
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded"
+            android:text="Jaflong"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Lalakhal"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Shahjalal Dargah"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text=" Pang Thu Mai"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text=" Kean Bridge"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Ratargul Swamp Forest"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Malnichara Tea Garden"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Khadimnagar National Park"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Bholaganj"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+    </LinearLayout>
+
+</ScrollView>

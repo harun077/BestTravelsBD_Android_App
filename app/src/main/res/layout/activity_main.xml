@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/background">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200sp"
+            android:background="@drawable/btn"
+            android:hint="UserName"
+            android:textColorHint="@color/white"
+            android:padding="15sp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:padding="15sp"
+            android:background="@drawable/btn" />
+        <CheckBox
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Keep me signed in"
+          android:textColor="#ffffff"
+           android:layout_marginTop="10dp"
+           android:buttonTint="#ffffff" />
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="Sign in"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncolor" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forget password?"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

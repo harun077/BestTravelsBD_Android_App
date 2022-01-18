@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoxsBazar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/beach1"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The modern Cox's Bazar derives its name from Captain Hiram Cox, an officer of the British East India Company,Superintendent of Palongkee outpost.To commemorate his role in refugee rehabilitation work."
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/car6"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set in Cox's Bazar, Hotel Sea Cox is 300 metres from Cox's Bazar Sea Beach.Among the facilities property are a restaurant,a 24-hour front desk and an ATM, along with free WiFi."
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/hotelel"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price For Single Room : 1500 BDT and Double Room : 2500 BDT"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/food8"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price For 1000 BDT"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+            <Button
+                android:layout_width="390dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn"
+                android:text="Booking"
+                android:textAllCaps="false"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChittagongActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp" >
+        <Button
+            android:id="@+id/coxsbazar"
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cardrounded"
+            android:text="Cox's Bazar "
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+        <Button
+            android:id="@+id/saintmartin"
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded"
+            android:text="Saint Martin Island"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Patenga Beach"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Himchori"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Karnaphuli River"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded"
+            android:text="Boga Lake"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Nilachal"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Naval Beach"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded"
+            android:text="Inani Beach"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Kaptai Lake"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:text="Guliakhali Sea Beach"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cardrounded" />
+
+    </LinearLayout>
+
+</ScrollView>
